@@ -16,8 +16,15 @@
 ## **Requirements**
 
 
-```
-A gmail account, with email and password.`
+1. Nodejs
+2. npm - Node Package Manager.
+3. MongoDB
+4. Ensure you have mongo sevice running.
+
+> start mongo service using
+	
+```shell
+$ sudo service mongod start
 ```
 
 
@@ -26,9 +33,19 @@ A gmail account, with email and password.`
 
 
 1. Clone the Repo.
-2. After cloning Repo
-3. install npm packages using
+2. After cloning Repo.
+3. install npm packages in parent directory and server directory.
+4. After installing,open terminal in server directory and type 
+
+```shell
+$ node server.js 
+```
+ 5. Open another terminal instance in parent directory and type 
  
+ ```shell
+$ npm start
+```
+
 > install npm packages using
 	
 ```shell
@@ -39,12 +56,6 @@ $ npm i
 
 
 This application is built using React.js,express.js, node.js as helper libraries and MongoDB as a database. Along with other support services such as Postman for api testing.
-
-1. Server is created using express.js and is listed on port-----.
-2. 
-3. 
-4. 
-
 
 
 ***Thank You***.
