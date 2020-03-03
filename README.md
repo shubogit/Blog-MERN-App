@@ -1,4 +1,4 @@
-# Blog-Edgistify
+# Blog-MERN-App
 
 > A MERN stack Blogging Web-Application. This application allows users to register/login using an email id. Logged in users have option to create post, and at the same time other valid users can comment on others post. Also other user can create a new post and publish the same.
 
